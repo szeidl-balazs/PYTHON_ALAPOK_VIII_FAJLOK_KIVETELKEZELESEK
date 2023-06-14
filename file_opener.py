@@ -1,6 +1,8 @@
-def file_opener(file_name):
-    current_file = open(file_name)
-    print(current_file)
-    current_file.close()
+current_file = open('text.txt')
 
-file_opener('text.txt')
+content = current_file.read()
+
+print(content)
+
+current_file.close()
+
