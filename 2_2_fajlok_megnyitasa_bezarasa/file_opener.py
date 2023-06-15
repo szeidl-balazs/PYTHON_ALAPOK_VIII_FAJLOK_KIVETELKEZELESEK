@@ -1,4 +1,4 @@
-current_file = open('text.txt')
+current_file = open('2_2_fajlok_megnyitasa_bezarasa/text.txt')
 
 content = current_file.read()
 
